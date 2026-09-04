@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #f2f5f9;
+        }
+
+        header {
+            background-color: #1e3a5f;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .card {
+            display: inline-block;
+            background-color: white;
+            width: 200px;
+            margin: 15px;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px #cccccc;
+        }
+
+        .card h2 {
+            color: #1e3a5f;
+        }
+
+        .card p {
+            color: #555555;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 12px #aaaaaa;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>User Dashboard</h1>
+    </header>
+
+    <div class="welcome">
+
+        <h2>Welcome!</h2>
+
+        <p>Start learning and complete your tasks.</p>
+
+
+        <a href="/content/">
+
+            <div class="card">
+                <h2> Content</h2>
+                <p>View learning content</p>
+            </div>
+
+        </a>
+
+      <a href="/tasks/">
+        <div class="card">
+            <h2> Tasks</h2>
+            <p>Complete your tasks</p>
+        </div>
+        </a>
+
+      <a href="/certificate/">
+        <div class="card">
+            <h2> Certificate</h2>
+            <p>Get your certificate</p>
+        </div>
+      </a>
+    </div>
+
+</body>
+</html>

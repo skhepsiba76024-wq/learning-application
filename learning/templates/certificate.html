@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Certificate</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background-color: #f2f5f9;
+        }
+
+        .certificate {
+            width: 80%;
+            margin: 50px auto;
+            padding: 50px;
+            background-color: white;
+            border: 8px solid #1e3a5f;
+            text-align: center;
+            box-shadow: 0 4px 15px #aaaaaa;
+        }
+
+        h1 {
+            color: #1e3a5f;
+            font-size: 42px;
+        }
+
+        h2 {
+            color: #333333;
+            margin-top: 35px;
+        }
+
+        .name {
+            font-size: 30px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin: 25px;
+        }
+
+        .text {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .details {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .line {
+            border-top: 1px solid #555555;
+            padding-top: 8px;
+            width: 180px;
+        }
+
+        .back {
+            margin-top: 30px;
+        }
+
+        .back a {
+            text-decoration: none;
+            color: #1e3a5f;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="certificate">
+
+        <h1>🏆 CERTIFICATE OF COMPLETION</h1>
+
+        <p class="text">
+            This certificate is proudly presented to
+        </p>
+
+        <div class="name">
+            {{ username }}
+        </div>
+
+        <p class="text">
+            for successfully completing the learning tasks
+            and demonstrating dedication towards learning.
+        </p>
+
+        <div class="details">
+
+            <div class="line">
+                Date
+            </div>
+
+            <div class="line">
+                Instructor
+            </div>
+
+        </div>
+
+        <div class="back">
+            <a href="/">← Back to Home</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
